@@ -1,0 +1,19 @@
+{
+  "name": "@formio/instructions",
+  "version": "1.0.0",
+  "description": "Instructions on how to login and use this private package repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/formio/instructions.git"
+  },
+  "author": "Randall Knutson <randall@form.io>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/formio/instructions/issues"
+  },
+  "homepage": "https://github.com/formio/instructions#readme"
+}
