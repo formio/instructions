@@ -6,13 +6,13 @@ Form.io provides access to private modules that contain premium components and t
  2. Go to https://pkg.form.io and log in with the username and password of your form.io account. Please note that this is the USERNAME and **not email** address of your account in form.io. You can access your username by logging into portal and going to your account information at the top right. If you are able to log in to https://pkg.form.io then you have been granted access and are using the correct username and password.
  3. From within your project, log in to the package registry by running the following command:
    ```javascript
-   npm adduser -r https://pkg.form.io
+   npm adduser --registry https://pkg.form.io
    ```
    Enter the same username and password from step 2.
    
  4. Find the package you want to install in your app. Premium is a very common one. To install it, from the command line in your app.
    ```javascript
-   npm install @formio/premium -r https://pkg.form.io
+   npm install @formio/premium --registry https://pkg.form.io
    ```
    This will install the package within your application.
    
@@ -24,4 +24,4 @@ Form.io provides access to private modules that contain premium components and t
    Formio.use(premium);
    ```
    
-  6. Render forms as usual. Premium components will now be installed in your app.
+ 6. Render forms as usual. Premium components will now be installed in your app.
