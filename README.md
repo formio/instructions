@@ -9,11 +9,13 @@ Form.io provides access to private modules that contain premium components and t
    npm adduser -r https://pkg.form.io
    ```
    Enter the same username and password from step 2.
+   
  4. Find the package you want to install in your app. Premium is a very common one. To install it, from the command line in your app.
    ```javascript
    npm install @formio/premium -r https://pkg.form.io
    ```
    This will install the package within your application.
+   
  5. To use it, in the main file of your app, Formio.use() the package. Depending on your language, do something like the following. (With react or vue, import Formio from react-formio or vue-formio instead of formiojs).
    ```javascript
    import { Formio } from 'formiojs';
@@ -21,4 +23,5 @@ Form.io provides access to private modules that contain premium components and t
 
    Formio.use(premium);
    ```
+   
   6. Render forms as usual. Premium components will now be installed in your app.
