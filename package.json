@@ -1,6 +1,6 @@
 {
   "name": "@formio/instructions",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Instructions on how to login and use this private package repository",
   "main": "index.js",
   "scripts": {
