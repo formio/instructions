@@ -1,6 +1,7 @@
 # Instructions for use
 
-> [!IMPORTANT]
+> **IMPORTANT**
+>
 > **Updated May 8, 2026:** These instructions have changed as of May 8, 2026. Please review all steps carefully, especially the updated authentication instructions using `npm login` instead of `npm adduser`.
 >
 > **Credential Expiration Notice:** Access credentials for the `pkg.form.io` registry expire every **180 days**. After expiration, you will need to run `npm login --registry https://pkg.form.io` again to re-authenticate.
